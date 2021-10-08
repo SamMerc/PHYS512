@@ -1,0 +1,15 @@
+Number of function calls for classic rk4 is:
+792
+Number of function evaluations per step for classic rk4 is: 
+4.0
+Chi squared value for classic rk4 is:
+3.012523865581229e-07
+Number of function calls for half-step size rk4 is:
+792
+Number of function evaluations per step for half-step size rk4 is:
+12.0
+Chi squared value for half-step size rk4 is:
+5.675801491603989e-10
+Ratio of classic rk4 chi squared to half-step size rk4 chi squared is:
+530.7662486148516
+Because the half-step size rk4 chi squared is smaller than the classic rk4 chi squared we conclude that the half-step size method is more accurate.

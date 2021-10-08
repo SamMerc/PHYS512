@@ -1,0 +1,7 @@
+a)
+We choose to use the scipy ODE solver for simplicity. We will set up the problem to be able as to use this solver.
+b)
+We know that the decay rate is  equal to ln(2)/T_1/2 where T_1/2 is the half-life.
+As we can see in the UraniumToLeadRatio_CloserLook.pdf, we notice that there is the same proportion of uranium and lead around 4*10^9 years.
+This is approximately the half-life of uranium, which makes sense since we expect half the uranium to have decayed into lead at that time.
+The value is higher than the actual half-life because the intermediary products slightly increase the time it takes for uranium to decay even though their half-life is only a fraction of U_238s.

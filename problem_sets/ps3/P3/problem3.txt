@@ -1,0 +1,16 @@
+a)
+We can linearize z-z0 = a*((x-x0)^2 + (y-y0)^2) as such:
+z = a*(x^2+y^2) -2a*x0*x - 2a*y0*y +z0 +a*(x0^2 + y0^2).
+By setting x1 = x^2+y^2, x2 = x, x3 = y, x4 = 1 and c1 = a, c2 = -2a*x0, c3 = -2a*y0, c4 = z0 + a*(x0^2 + y0^2) we have linearized the problem.
+Then a = c1, x0 = -c2/2*a, y0 = -c3/2*a and z0 = c4 - a*(x0^2 + y0^2).
+b)
+My best fit parameters are : 
+a = 0.0001667044547739948 mm
+x0 = -1.3604886161163756 mm
+y0 = 58.221476123311376 mm
+z0 = -1512.8772100375945 mm
+c)
+We know that for a parabola f = 1/(4a) so the error on f is given by: 
+e_f = Sqrt((df/da)^2 * e_a^2) = Sqrt(e_a^2 / (16*a^4)) = e_a / (4*a^2) = (e_a/a)*f.
+Then my estimate for the focal length f is: 1.499659984125385 m
+The error on my estimate of f is: 0.0005804077581894036 m
