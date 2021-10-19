@@ -1,0 +1,5 @@
+###Problem 4
+
+
+The chi squared value using an mcmc sampler with importance sampling is: 9295.6278890815
+The chi squared value using an mcmc sampler with a prior is: 10922.32813109248

@@ -1,0 +1,4 @@
+###Problem 3:
+
+The mean value of dark energy is: 
+0.6794814427548475 +/- 0.06298066078831246

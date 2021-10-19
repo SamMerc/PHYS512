@@ -1,0 +1,7 @@
+###Problem 1:
+
+chisq is 15267.937968222595 for parameters [6.e+01 2.e-02 1.e-01 5.e-02 2.e-09 1.e+00] and 2501 degrees of freedom.
+
+chisq is 3272.2033778089576 for parameters [6.9e+01 2.2e-02 1.2e-01 6.0e-02 2.1e-09 9.5e-01] and 2501 degrees of freedom.
+
+We know that the probability distribution of chi squared is gaussian with mean n and variance 2n. So in our case, the mean is 2501 and the variance is 50002, which means the standard deviation is approximately 70. Then neither result is within 5-sigma of the mean value, meaning that neither value gives an acceptable fit. 
